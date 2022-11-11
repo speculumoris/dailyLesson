@@ -5,4 +5,9 @@ public class Dog extends Mammal{
     public void eat() {
         System.out.println("dogs eat");
     }
+
+    @Override
+    public void move() {
+
+    }
 }
