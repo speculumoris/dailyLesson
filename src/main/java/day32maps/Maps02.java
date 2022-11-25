@@ -11,7 +11,12 @@ public class Maps02 {
         HashMap<String,Integer>gorunum=new HashMap<>();
 
         for (String w : harf) {
-            gorunum.merge(w, 1, Integer::sum);
+            Integer gorunumsayisi=gorunum.get(w);
+            if (gorunumsayisi==null){
+                gorunum.put(w,1);
+            }else {
+                gorunum.put(w,gorunumsayisi+1);
+            }
         }
         System.out.println(gorunum);
     }
