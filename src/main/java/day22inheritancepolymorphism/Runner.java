@@ -26,12 +26,6 @@ public class Runner {
         cat4.eat();
         cat4.drink();
 
-        //Object olusturulurken OBject'in data type'i Child Class'lardan secilemez
-
-        //Inheritance'da variable'lar secilirken Java Constructor'a bakar
-        //Oncelikle istediginiz method'u Constructor'i kullanilan Class'dan alir
-        //O class'da bulamazsa Parent Class'lara bakar.
-        //Hicbir yerde o methodu bulamazsa hata verir.
         Mammal cat5 =new Mammal();
         cat5.eat();
 
