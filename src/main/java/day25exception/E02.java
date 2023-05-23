@@ -10,6 +10,7 @@ public class E02 {
     }
     //Bir String Arrayden index girerek eleman elde edebilmek icin bir method olusturun
     public static void getElementFromArray(String[] arr,int idx){
+
         System.out.println(arr[idx]);
     }
 }

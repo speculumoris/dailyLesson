@@ -23,7 +23,6 @@ public class Exceptions01 {
             //Herhangi bir satirda "Exception" atilirsa Java direkt "catch" bolumune gecer try icindeki sonraki kodlari calistirmaz
             i = Integer.valueOf(str);
             System.out.println("Burasi try bolumu");
-
         } catch (NumberFormatException e) {
 
             System.out.println("Rakam olmayan karakter iceren String'ler Integer'a cevrilemez");
